@@ -7,7 +7,7 @@ import EditCustomer from './EditCustomer'
 import Snackbar from '@material-ui/core/Snackbar'
 import { Button } from "@material-ui/core";
 import AddTraining from "./AddTraining";
-import {Delete, DeleteForever} from "@material-ui/icons"
+import {Delete} from "@material-ui/icons"
 
 function CustomerList() {
 

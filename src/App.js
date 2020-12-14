@@ -1,8 +1,6 @@
 import React, {useState} from 'react';
 import CustomerList from './components/CustomerList';
-import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import TrainingList from './components/TrainingList';
-import Home from './components/Home';
 import TrainingCalendar from './components/Calendar';
 import { AppBar, Tab, Tabs } from '@material-ui/core';
 import {Event, FitnessCenter, People } from '@material-ui/icons';
