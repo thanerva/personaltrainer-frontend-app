@@ -15,7 +15,8 @@ function AddTraining(props) {
     const [open, setOpen] = useState(false)
 
 
-const handleClickOpen = () => {
+const handleClickOpen = (date) => {
+    setTraining({...training, date: moment(date).toISOString()})
     setOpen(true)
 }
 
@@ -49,8 +50,8 @@ return(
         <DialogContent>
                 <MuiPickersUtilsProvider utils={DateFnsUtils}>
                     <DatePicker
+
                         format="dd.MM.yyyy"
-                        type="datetime-local"
                         value={training.date}
                         onChange={handleDateChange}
                     />

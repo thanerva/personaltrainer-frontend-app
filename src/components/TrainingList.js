@@ -30,7 +30,7 @@ function TrainingList() {
         {headerName: 'Lastname', field: 'customer.lastname', sortable: true, filter: true},
         {headerName: 'Activity', field: 'activity', sortable: true, filter: true},
         {headerName: 'Date', field: 'date', valueFormatter:time, sortable: true, filter: true},
-        {headerName: 'Duration', field: 'duration', sortable: true, filter: true},
+        {headerName: 'Duration(min)', field: 'duration', sortable: true, filter: true},
 
         {
             headerName: '',
